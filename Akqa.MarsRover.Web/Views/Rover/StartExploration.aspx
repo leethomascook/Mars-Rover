@@ -12,7 +12,7 @@
     <p>  
         <%=result.X.ToString() %>
         <%=result.Y.ToString() %>
-        <%=result.Direction.ToString() %>
+        <%=result.Direction.ToString().ToCharArray()[0] %>
         </p>  
  <%   } %>
 

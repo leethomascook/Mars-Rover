@@ -1,0 +1,11 @@
+C:\AKQA\Akqa.MarsRover\Akqa.MarsRover.Web\bin\Akqa.MarsRover.Web.dll
+C:\AKQA\Akqa.MarsRover\Akqa.MarsRover.Web\bin\Akqa.MarsRover.Web.pdb
+C:\AKQA\Akqa.MarsRover\Akqa.MarsRover.Web\bin\Akqa.MarsRover.Business.dll
+C:\AKQA\Akqa.MarsRover\Akqa.MarsRover.Web\bin\Akqa.MarsRover.Container.dll
+C:\AKQA\Akqa.MarsRover\Akqa.MarsRover.Web\bin\Akqa.MarsRover.Business.pdb
+C:\AKQA\Akqa.MarsRover\Akqa.MarsRover.Web\bin\Akqa.MarsRover.Container.pdb
+C:\AKQA\Akqa.MarsRover\Akqa.MarsRover.Web\bin\StructureMap.pdb
+C:\AKQA\Akqa.MarsRover\Akqa.MarsRover.Web\bin\StructureMap.xml
+C:\AKQA\Akqa.MarsRover\Akqa.MarsRover.Web\obj\Debug\ResolveAssemblyReference.cache
+C:\AKQA\Akqa.MarsRover\Akqa.MarsRover.Web\obj\Debug\Akqa.MarsRover.Web.dll
+C:\AKQA\Akqa.MarsRover\Akqa.MarsRover.Web\obj\Debug\Akqa.MarsRover.Web.pdb

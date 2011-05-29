@@ -1,0 +1,5 @@
+C:\AKQA\Akqa.MarsRover\Akqa.MarsRover.Business\bin\Debug\Akqa.MarsRover.Business.dll
+C:\AKQA\Akqa.MarsRover\Akqa.MarsRover.Business\bin\Debug\Akqa.MarsRover.Business.pdb
+C:\AKQA\Akqa.MarsRover\Akqa.MarsRover.Business\obj\Debug\ResolveAssemblyReference.cache
+C:\AKQA\Akqa.MarsRover\Akqa.MarsRover.Business\obj\Debug\Akqa.MarsRover.Business.dll
+C:\AKQA\Akqa.MarsRover\Akqa.MarsRover.Business\obj\Debug\Akqa.MarsRover.Business.pdb
