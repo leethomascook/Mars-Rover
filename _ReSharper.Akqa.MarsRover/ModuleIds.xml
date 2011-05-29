@@ -1,0 +1,5 @@
+<Modules>
+  <Module PersistentId="818F2BEA-12FA-4397-B697-34228729221F" ModuleId="Akqa.MarsRover.Test" />
+  <Module PersistentId="52A5A768-520E-41E8-8E69-58FE67602C8D" ModuleId="Akqa.MarsRover.Web" />
+  <Module PersistentId="7C9C600B-65DE-4B76-84BF-DC0491A982E5" ModuleId="Akqa.MarsRover.Business" />
+</Modules>

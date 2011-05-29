@@ -1,0 +1,385 @@
+<Configuration>
+  <UnitTestSessions>
+    <Session>
+      <Name>Session #1</Name>
+      <Elements>
+        <UnitTestElement Provider="nUnit" Id="Akqa.MarsRover.Test.ControllerTests" type="NUnitTestFixtureElement" Project="818F2BEA-12FA-4397-B697-34228729221F" />
+        <UnitTestElement Provider="nUnit" Id="Akqa.MarsRover.Test.DirectionalTests" type="NUnitTestFixtureElement" Project="818F2BEA-12FA-4397-B697-34228729221F" />
+        <UnitTestElement Provider="nUnit" Id="Akqa.MarsRover.Test.MovementTests" type="NUnitTestFixtureElement" Project="818F2BEA-12FA-4397-B697-34228729221F" />
+        <UnitTestElement Provider="nUnit" Id="Akqa.MarsRover.Test.ParserTests" type="NUnitTestFixtureElement" Project="818F2BEA-12FA-4397-B697-34228729221F" />
+        <UnitTestElement Provider="nUnit" Id="Akqa.MarsRover.Test.ServiceTests" type="NUnitTestFixtureElement" Project="818F2BEA-12FA-4397-B697-34228729221F" />
+        <UnitTestElement Provider="nUnit" Id="Akqa.MarsRover.Test.ParserTests.Test_CommandParser_Parses_Correctly_Move_Forward" ParentId="Akqa.MarsRover.Test.ParserTests" type="NUnitTestElement" TypeName="Akqa.MarsRover.Test.ParserTests" MethodName="Test_CommandParser_Parses_Correctly_Move_Forward" Project="818F2BEA-12FA-4397-B697-34228729221F" />
+        <UnitTestElement Provider="nUnit" Id="Akqa.MarsRover.Test.ParserTests.Test_CommandParser_Parses_Correctly_Multiple_Commands" ParentId="Akqa.MarsRover.Test.ParserTests" type="NUnitTestElement" TypeName="Akqa.MarsRover.Test.ParserTests" MethodName="Test_CommandParser_Parses_Correctly_Multiple_Commands" Project="818F2BEA-12FA-4397-B697-34228729221F" />
+        <UnitTestElement Provider="nUnit" Id="Akqa.MarsRover.Test.ParserTests.Test_CommandParser_Parses_Correctly_Turn_Left" ParentId="Akqa.MarsRover.Test.ParserTests" type="NUnitTestElement" TypeName="Akqa.MarsRover.Test.ParserTests" MethodName="Test_CommandParser_Parses_Correctly_Turn_Left" Project="818F2BEA-12FA-4397-B697-34228729221F" />
+        <UnitTestElement Provider="nUnit" Id="Akqa.MarsRover.Test.ParserTests.Test_CommandParser_Parses_Correctly_Turns_Right" ParentId="Akqa.MarsRover.Test.ParserTests" type="NUnitTestElement" TypeName="Akqa.MarsRover.Test.ParserTests" MethodName="Test_CommandParser_Parses_Correctly_Turns_Right" Project="818F2BEA-12FA-4397-B697-34228729221F" />
+        <UnitTestElement Provider="nUnit" Id="Akqa.MarsRover.Test.ParserTests.Test_DirectionalParser_Parses_Correctly" ParentId="Akqa.MarsRover.Test.ParserTests" type="NUnitTestElement" TypeName="Akqa.MarsRover.Test.ParserTests" MethodName="Test_DirectionalParser_Parses_Correctly" Project="818F2BEA-12FA-4397-B697-34228729221F" />
+        <UnitTestElement Provider="nUnit" Id="Akqa.MarsRover.Test.ServiceTests.Test_NavigationService_Moves_Rover_Correctly_According_To_Supplied_Test_Data_One" ParentId="Akqa.MarsRover.Test.ServiceTests" type="NUnitTestElement" TypeName="Akqa.MarsRover.Test.ServiceTests" MethodName="Test_NavigationService_Moves_Rover_Correctly_According_To_Supplied_Test_Data_One" Project="818F2BEA-12FA-4397-B697-34228729221F" />
+        <UnitTestElement Provider="nUnit" Id="Akqa.MarsRover.Test.ServiceTests.Test_NavigationService_Moves_Rover_Correctly_According_To_Supplied_Test_Data_Two" ParentId="Akqa.MarsRover.Test.ServiceTests" type="NUnitTestElement" TypeName="Akqa.MarsRover.Test.ServiceTests" MethodName="Test_NavigationService_Moves_Rover_Correctly_According_To_Supplied_Test_Data_Two" Project="818F2BEA-12FA-4397-B697-34228729221F" />
+        <UnitTestElement Provider="nUnit" Id="Akqa.MarsRover.Test.ServiceTests.Test_NavigationService_Moves_Rover_Correctly_Forward_Multiple_Square" ParentId="Akqa.MarsRover.Test.ServiceTests" type="NUnitTestElement" TypeName="Akqa.MarsRover.Test.ServiceTests" MethodName="Test_NavigationService_Moves_Rover_Correctly_Forward_Multiple_Square" Project="818F2BEA-12FA-4397-B697-34228729221F" />
+        <UnitTestElement Provider="nUnit" Id="Akqa.MarsRover.Test.ServiceTests.Test_NavigationService_Moves_Rover_Correctly_Forward_Multiple_Square_In_Multiple_Directions" ParentId="Akqa.MarsRover.Test.ServiceTests" type="NUnitTestElement" TypeName="Akqa.MarsRover.Test.ServiceTests" MethodName="Test_NavigationService_Moves_Rover_Correctly_Forward_Multiple_Square_In_Multiple_Directions" Project="818F2BEA-12FA-4397-B697-34228729221F" />
+        <UnitTestElement Provider="nUnit" Id="Akqa.MarsRover.Test.ServiceTests.Test_NavigationService_Moves_Rover_Correctly_Forward_One_Square" ParentId="Akqa.MarsRover.Test.ServiceTests" type="NUnitTestElement" TypeName="Akqa.MarsRover.Test.ServiceTests" MethodName="Test_NavigationService_Moves_Rover_Correctly_Forward_One_Square" Project="818F2BEA-12FA-4397-B697-34228729221F" />
+        <UnitTestElement Provider="nUnit" Id="Akqa.MarsRover.Test.MovementTests.Test_Rover_Can_Move_Forward_One_Square_When_Facing_East" ParentId="Akqa.MarsRover.Test.MovementTests" type="NUnitTestElement" TypeName="Akqa.MarsRover.Test.MovementTests" MethodName="Test_Rover_Can_Move_Forward_One_Square_When_Facing_East" Project="818F2BEA-12FA-4397-B697-34228729221F" />
+        <UnitTestElement Provider="nUnit" Id="Akqa.MarsRover.Test.MovementTests.Test_Rover_Can_Move_Forward_One_Square_When_Facing_North" ParentId="Akqa.MarsRover.Test.MovementTests" type="NUnitTestElement" TypeName="Akqa.MarsRover.Test.MovementTests" MethodName="Test_Rover_Can_Move_Forward_One_Square_When_Facing_North" Project="818F2BEA-12FA-4397-B697-34228729221F" />
+        <UnitTestElement Provider="nUnit" Id="Akqa.MarsRover.Test.MovementTests.Test_Rover_Can_Move_Forward_One_Square_When_Facing_South" ParentId="Akqa.MarsRover.Test.MovementTests" type="NUnitTestElement" TypeName="Akqa.MarsRover.Test.MovementTests" MethodName="Test_Rover_Can_Move_Forward_One_Square_When_Facing_South" Project="818F2BEA-12FA-4397-B697-34228729221F" />
+        <UnitTestElement Provider="nUnit" Id="Akqa.MarsRover.Test.MovementTests.Test_Rover_Can_Move_Forward_One_Square_When_Facing_West" ParentId="Akqa.MarsRover.Test.MovementTests" type="NUnitTestElement" TypeName="Akqa.MarsRover.Test.MovementTests" MethodName="Test_Rover_Can_Move_Forward_One_Square_When_Facing_West" Project="818F2BEA-12FA-4397-B697-34228729221F" />
+        <UnitTestElement Provider="nUnit" Id="Akqa.MarsRover.Test.DirectionalTests.Test_Rover_Can_Rotate_90_Degrees" ParentId="Akqa.MarsRover.Test.DirectionalTests" type="NUnitTestElement" TypeName="Akqa.MarsRover.Test.DirectionalTests" MethodName="Test_Rover_Can_Rotate_90_Degrees" Project="818F2BEA-12FA-4397-B697-34228729221F" />
+        <UnitTestElement Provider="nUnit" Id="Akqa.MarsRover.Test.ControllerTests.Test_Rover_Controller_Add_Plateau_Persisted" ParentId="Akqa.MarsRover.Test.ControllerTests" type="NUnitTestElement" TypeName="Akqa.MarsRover.Test.ControllerTests" MethodName="Test_Rover_Controller_Add_Plateau_Persisted" Project="818F2BEA-12FA-4397-B697-34228729221F" />
+        <UnitTestElement Provider="nUnit" Id="Akqa.MarsRover.Test.ControllerTests.Test_Rover_Controller_Add_Rover_Persisted" ParentId="Akqa.MarsRover.Test.ControllerTests" type="NUnitTestElement" TypeName="Akqa.MarsRover.Test.ControllerTests" MethodName="Test_Rover_Controller_Add_Rover_Persisted" Project="818F2BEA-12FA-4397-B697-34228729221F" />
+        <UnitTestElement Provider="nUnit" Id="Akqa.MarsRover.Test.ControllerTests.Test_Rover_Controller_Start_Exploration_Calls_Navigation_Service_For_Each_Rover_And_Sets_View_Data_Model" ParentId="Akqa.MarsRover.Test.ControllerTests" type="NUnitTestElement" TypeName="Akqa.MarsRover.Test.ControllerTests" MethodName="Test_Rover_Controller_Start_Exploration_Calls_Navigation_Service_For_Each_Rover_And_Sets_View_Data_Model" Project="818F2BEA-12FA-4397-B697-34228729221F" />
+        <UnitTestElement Provider="nUnit" Id="Akqa.MarsRover.Test.ParserTests.Test_DirectionalParser_Parses_Correctly(&quot;E&quot;,East)" ParentId="Akqa.MarsRover.Test.ParserTests.Test_DirectionalParser_Parses_Correctly" type="NUnitRowTestElement" />
+        <UnitTestElement Provider="nUnit" Id="Akqa.MarsRover.Test.ParserTests.Test_DirectionalParser_Parses_Correctly(&quot;N&quot;,North)" ParentId="Akqa.MarsRover.Test.ParserTests.Test_DirectionalParser_Parses_Correctly" type="NUnitRowTestElement" />
+        <UnitTestElement Provider="nUnit" Id="Akqa.MarsRover.Test.ParserTests.Test_DirectionalParser_Parses_Correctly(&quot;S&quot;,South)" ParentId="Akqa.MarsRover.Test.ParserTests.Test_DirectionalParser_Parses_Correctly" type="NUnitRowTestElement" />
+        <UnitTestElement Provider="nUnit" Id="Akqa.MarsRover.Test.ParserTests.Test_DirectionalParser_Parses_Correctly(&quot;W&quot;,West)" ParentId="Akqa.MarsRover.Test.ParserTests.Test_DirectionalParser_Parses_Correctly" type="NUnitRowTestElement" />
+        <UnitTestElement Provider="nUnit" Id="Akqa.MarsRover.Test.DirectionalTests.Test_Rover_Can_Rotate_90_Degrees(East,Left,North)" ParentId="Akqa.MarsRover.Test.DirectionalTests.Test_Rover_Can_Rotate_90_Degrees" type="NUnitRowTestElement" />
+        <UnitTestElement Provider="nUnit" Id="Akqa.MarsRover.Test.DirectionalTests.Test_Rover_Can_Rotate_90_Degrees(East,Right,South)" ParentId="Akqa.MarsRover.Test.DirectionalTests.Test_Rover_Can_Rotate_90_Degrees" type="NUnitRowTestElement" />
+        <UnitTestElement Provider="nUnit" Id="Akqa.MarsRover.Test.DirectionalTests.Test_Rover_Can_Rotate_90_Degrees(North,Left,West)" ParentId="Akqa.MarsRover.Test.DirectionalTests.Test_Rover_Can_Rotate_90_Degrees" type="NUnitRowTestElement" />
+        <UnitTestElement Provider="nUnit" Id="Akqa.MarsRover.Test.DirectionalTests.Test_Rover_Can_Rotate_90_Degrees(North,Right,East)" ParentId="Akqa.MarsRover.Test.DirectionalTests.Test_Rover_Can_Rotate_90_Degrees" type="NUnitRowTestElement" />
+        <UnitTestElement Provider="nUnit" Id="Akqa.MarsRover.Test.DirectionalTests.Test_Rover_Can_Rotate_90_Degrees(South,Left,East)" ParentId="Akqa.MarsRover.Test.DirectionalTests.Test_Rover_Can_Rotate_90_Degrees" type="NUnitRowTestElement" />
+        <UnitTestElement Provider="nUnit" Id="Akqa.MarsRover.Test.DirectionalTests.Test_Rover_Can_Rotate_90_Degrees(South,Right,West)" ParentId="Akqa.MarsRover.Test.DirectionalTests.Test_Rover_Can_Rotate_90_Degrees" type="NUnitRowTestElement" />
+        <UnitTestElement Provider="nUnit" Id="Akqa.MarsRover.Test.DirectionalTests.Test_Rover_Can_Rotate_90_Degrees(West,Left,South)" ParentId="Akqa.MarsRover.Test.DirectionalTests.Test_Rover_Can_Rotate_90_Degrees" type="NUnitRowTestElement" />
+        <UnitTestElement Provider="nUnit" Id="Akqa.MarsRover.Test.DirectionalTests.Test_Rover_Can_Rotate_90_Degrees(West,Right,North)" ParentId="Akqa.MarsRover.Test.DirectionalTests.Test_Rover_Can_Rotate_90_Degrees" type="NUnitRowTestElement" />
+      </Elements>
+    </Session>
+  </UnitTestSessions>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="FC870087-FAFF-4B22-8E5E-8AA446B1E0E2/f:DependencyInjector.cs" caret="1047" fromTop="16" />
+      <File id="52A5A768-520E-41E8-8E69-58FE67602C8D/f:Global.asax.cs" caret="963" fromTop="21" />
+      <File id="FC870087-FAFF-4B22-8E5E-8AA446B1E0E2/f:StructureMapControllerFactory.cs" caret="131" fromTop="4" />
+      <File id="52A5A768-520E-41E8-8E69-58FE67602C8D/d:Classes/f:StructureMapControllerFactory.cs" caret="243" fromTop="10" />
+      <File id="52A5A768-520E-41E8-8E69-58FE67602C8D/d:Content/f:Site.css" caret="1748" fromTop="12" />
+      <File id="52A5A768-520E-41E8-8E69-58FE67602C8D/d:Views/d:Index/f:Index.aspx" caret="32" fromTop="0" />
+      <File id="52A5A768-520E-41E8-8E69-58FE67602C8D/d:Views/d:Index/f:About.aspx" caret="2469" fromTop="2" />
+      <File id="52A5A768-520E-41E8-8E69-58FE67602C8D/d:Views/d:Shared/f:Site.Master" caret="869" fromTop="23" />
+      <File id="52A5A768-520E-41E8-8E69-58FE67602C8D/d:Models/f:RoverModel.cs" caret="0" fromTop="0" />
+      <File id="52A5A768-520E-41E8-8E69-58FE67602C8D/d:Controllers/f:IndexController.cs" caret="0" fromTop="0" />
+      <File id="7C9C600B-65DE-4B76-84BF-DC0491A982E5/d:Domain/f:Command.cs" caret="0" fromTop="0" />
+      <File id="7C9C600B-65DE-4B76-84BF-DC0491A982E5/d:Domain/f:Direction.cs" caret="0" fromTop="0" />
+      <File id="7C9C600B-65DE-4B76-84BF-DC0491A982E5/d:Domain/f:Plateau.cs" caret="300" fromTop="11" />
+      <File id="7C9C600B-65DE-4B76-84BF-DC0491A982E5/d:Domain/f:Position.cs" caret="0" fromTop="0" />
+      <File id="7C9C600B-65DE-4B76-84BF-DC0491A982E5/d:Domain/f:Rotation.cs" caret="0" fromTop="0" />
+      <File id="7C9C600B-65DE-4B76-84BF-DC0491A982E5/d:Domain/f:Rover.cs" caret="300" fromTop="13" />
+      <File id="7C9C600B-65DE-4B76-84BF-DC0491A982E5/d:Parsers/f:DirectionParser.cs" caret="0" fromTop="0" />
+      <File id="7C9C600B-65DE-4B76-84BF-DC0491A982E5/d:Parsers/f:CommandParser.cs" caret="0" fromTop="0" />
+      <File id="7C9C600B-65DE-4B76-84BF-DC0491A982E5/d:Services/f:INavigationService.cs" caret="0" fromTop="0" />
+      <File id="7C9C600B-65DE-4B76-84BF-DC0491A982E5/d:Services/f:NavigationService.cs" caret="0" fromTop="0" />
+      <File id="818F2BEA-12FA-4397-B697-34228729221F/f:ServiceTests.cs" caret="521" fromTop="16" />
+      <File id="818F2BEA-12FA-4397-B697-34228729221F/f:ParserTests.cs" caret="337" fromTop="12" />
+      <File id="818F2BEA-12FA-4397-B697-34228729221F/f:DirectionalTests.cs" caret="1164" fromTop="23" />
+      <File id="818F2BEA-12FA-4397-B697-34228729221F/f:MovementTests.cs" caret="0" fromTop="0" />
+      <File id="52A5A768-520E-41E8-8E69-58FE67602C8D/d:Controllers/f:RoverController.cs" caret="2170" fromTop="17" />
+      <File id="52A5A768-520E-41E8-8E69-58FE67602C8D/d:Views/d:Rover/f:Index.aspx" caret="0" fromTop="0" />
+      <File id="52A5A768-520E-41E8-8E69-58FE67602C8D/d:Views/d:Rover/f:StartExploration.aspx" caret="588" fromTop="17" />
+      <File id="52A5A768-520E-41E8-8E69-58FE67602C8D/d:Views/d:Rover/f:SubmitPlateau.aspx" caret="615" fromTop="0" />
+      <File id="818F2BEA-12FA-4397-B697-34228729221F/f:ControllerTests.cs" caret="297" fromTop="11" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="52A5A768-520E-41E8-8E69-58FE67602C8D/d:Controllers/f:RoverController.cs" caret="33" fromTop="0" />
+      <File id="52A5A768-520E-41E8-8E69-58FE67602C8D/d:Controllers/f:RoverController.cs" caret="379" fromTop="6" />
+      <File id="52A5A768-520E-41E8-8E69-58FE67602C8D/d:Controllers/f:RoverController.cs" caret="2398" fromTop="18" />
+      <File id="52A5A768-520E-41E8-8E69-58FE67602C8D/d:Controllers/f:RoverController.cs" caret="2127" fromTop="12" />
+      <File id="52A5A768-520E-41E8-8E69-58FE67602C8D/d:Controllers/f:RoverController.cs" caret="1367" fromTop="15" />
+      <File id="52A5A768-520E-41E8-8E69-58FE67602C8D/d:Controllers/f:RoverController.cs" caret="1886" fromTop="11" />
+      <File id="52A5A768-520E-41E8-8E69-58FE67602C8D/d:Controllers/f:RoverController.cs" caret="1787" fromTop="16" />
+      <File id="52A5A768-520E-41E8-8E69-58FE67602C8D/d:Views/d:Rover/f:SubmitPlateau.aspx" caret="1577" fromTop="30" />
+      <File id="52A5A768-520E-41E8-8E69-58FE67602C8D/d:Views/d:Rover/f:SubmitPlateau.aspx" caret="1585" fromTop="26" />
+      <File id="52A5A768-520E-41E8-8E69-58FE67602C8D/d:Views/d:Rover/f:SubmitPlateau.aspx" caret="1575" fromTop="22" />
+      <File id="52A5A768-520E-41E8-8E69-58FE67602C8D/d:Controllers/f:RoverController.cs" caret="1191" fromTop="12" />
+      <File id="52A5A768-520E-41E8-8E69-58FE67602C8D/d:Views/d:Rover/f:SubmitPlateau.aspx" caret="143" fromTop="0" />
+      <File id="52A5A768-520E-41E8-8E69-58FE67602C8D/d:Views/d:Rover/f:SubmitPlateau.aspx" caret="1536" fromTop="8" />
+      <File id="52A5A768-520E-41E8-8E69-58FE67602C8D/d:Controllers/f:RoverController.cs" caret="2004" fromTop="11" />
+      <File id="818F2BEA-12FA-4397-B697-34228729221F/f:DirectionalTests.cs" caret="304" fromTop="7" />
+      <File id="818F2BEA-12FA-4397-B697-34228729221F/f:ControllerTests.cs" caret="485" fromTop="18" />
+      <File id="818F2BEA-12FA-4397-B697-34228729221F/f:ControllerTests.cs" caret="536" fromTop="19" />
+      <File id="7C9C600B-65DE-4B76-84BF-DC0491A982E5/d:Domain/f:Plateau.cs" caret="323" fromTop="17" />
+      <File id="7C9C600B-65DE-4B76-84BF-DC0491A982E5/d:Domain/f:Plateau.cs" caret="248" fromTop="13" />
+      <File id="818F2BEA-12FA-4397-B697-34228729221F/f:ControllerTests.cs" caret="801" fromTop="10" />
+      <File id="818F2BEA-12FA-4397-B697-34228729221F/f:ControllerTests.cs" caret="1587" fromTop="24" />
+      <File id="818F2BEA-12FA-4397-B697-34228729221F/f:ControllerTests.cs" caret="1342" fromTop="20" />
+      <File id="818F2BEA-12FA-4397-B697-34228729221F/f:ControllerTests.cs" caret="3251" fromTop="32" />
+      <File id="818F2BEA-12FA-4397-B697-34228729221F/f:ControllerTests.cs" caret="3238" fromTop="13" />
+      <File id="818F2BEA-12FA-4397-B697-34228729221F/f:ControllerTests.cs" caret="2803" fromTop="21" />
+      <File id="818F2BEA-12FA-4397-B697-34228729221F/f:ControllerTests.cs" caret="2528" fromTop="16" />
+      <File id="818F2BEA-12FA-4397-B697-34228729221F/f:ControllerTests.cs" caret="2989" fromTop="26" />
+      <File id="818F2BEA-12FA-4397-B697-34228729221F/f:ControllerTests.cs" caret="1847" fromTop="9" />
+      <File id="818F2BEA-12FA-4397-B697-34228729221F/f:ControllerTests.cs" caret="53" fromTop="1" />
+      <File id="7C9C600B-65DE-4B76-84BF-DC0491A982E5/d:Domain/f:Plateau.cs" caret="0" fromTop="0" />
+    </RecentEdits>
+  </RecentFiles>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="Test" priority="31" />
+      <Item value="Assert`0" priority="127" />
+      <Item value="new" priority="1113" />
+      <Item value="Rover" priority="177" />
+      <Item value="rover" priority="222" />
+      <Item value="Business.Domain" priority="62" />
+      <Item value="CurrentPosition`0" priority="31" />
+      <Item value="CurrentPosition" priority="28" />
+      <Item value="startPosition" priority="159" />
+      <Item value="newPosition" priority="31" />
+      <Item value="private" priority="95" />
+      <Item value="Position`0" priority="192" />
+      <Item value="public" priority="666" />
+      <Item value="int" priority="287" />
+      <Item value="Direction" priority="64" />
+      <Item value="return" priority="477" />
+      <Item value="m_currentPosition" priority="287" />
+      <Item value="Rover`0" priority="191" />
+      <Item value="Position" priority="210" />
+      <Item value="currentPosition" priority="32" />
+      <Item value="case" priority="350" />
+      <Item value="Direction`0" priority="638" />
+      <Item value="break" priority="190" />
+      <Item value="expectedPosition" priority="63" />
+      <Item value="override" priority="159" />
+      <Item value="if" priority="223" />
+      <Item value="X" priority="31" />
+      <Item value="obj" priority="63" />
+      <Item value="false" priority="63" />
+      <Item value="comparingObjet" priority="31" />
+      <Item value="direction" priority="224" />
+      <Item value="TestCase" priority="63" />
+      <Item value="startDirection" priority="32" />
+      <Item value="endDirection" priority="32" />
+      <Item value="rotateDirection" priority="31" />
+      <Item value="Description" priority="31" />
+      <Item value="Rotation`0" priority="191" />
+      <Item value="switch" priority="189" />
+      <Item value="Rotate`0" priority="31" />
+      <Item value="AppDomainSetup`0" priority="31" />
+      <Item value="Plateau`0" priority="127" />
+      <Item value="plateau" priority="159" />
+      <Item value="Plateau" priority="86" />
+      <Item value="m_height" priority="31" />
+      <Item value="y" priority="63" />
+      <Item value="m_length" priority="31" />
+      <Item value="x" priority="63" />
+      <Item value="Presenter" priority="28" />
+      <Item value="Program" priority="57" />
+      <Item value="IMVPView`0" priority="31" />
+      <Item value="protected" priority="31" />
+      <Item value="presenter" priority="31" />
+      <Item value="m_presenter" priority="63" />
+      <Item value="var" priority="63" />
+      <Item value="throw" priority="63" />
+      <Item value="Exception" priority="28" />
+      <Item value="ActionResult`0" priority="63" />
+      <Item value="string" priority="347" />
+      <Item value="View`0" priority="128" />
+      <Item value="pleateauWidth" priority="61" />
+      <Item value="plateauHeight" priority="30" />
+      <Item value="TempData" priority="93" />
+      <Item value="as" priority="31" />
+      <Item value="List" priority="255" />
+      <Item value="RoverModel`0" priority="95" />
+      <Item value="List&lt;RoverModel&gt;" priority="57" />
+      <Item value="null" priority="31" />
+      <Item value="rovers" priority="191" />
+      <Item value="RoverModel" priority="57" />
+      <Item value="Movements" priority="31" />
+      <Item value="movements" priority="94" />
+      <Item value="position" priority="159" />
+      <Item value="void" priority="158" />
+      <Item value="static" priority="31" />
+      <Item value="input" priority="31" />
+      <Item value="output" priority="31" />
+      <Item value="ViewResult" priority="28" />
+      <Item value="ViewName" priority="31" />
+      <Item value="InvalidOperationException" priority="28" />
+      <Item value="foreach" priority="125" />
+      <Item value="model" priority="126" />
+      <Item value="INavigationService`0" priority="93" />
+      <Item value="service" priority="94" />
+      <Item value="NavigationService" priority="28" />
+      <Item value="commands" priority="184" />
+      <Item value="Command`0" priority="283" />
+      <Item value="List&lt;Command&gt;" priority="86" />
+      <Item value="in" priority="30" />
+      <Item value="CommandParser`0" priority="62" />
+      <Item value="results" priority="62" />
+      <Item value="List&lt;Position&gt;" priority="28" />
+      <Item value="ViewData" priority="129" />
+      <Item value="o" priority="31" />
+      <Item value="Html" priority="31" />
+      <Item value="result" priority="95" />
+      <Item value="a" priority="31" />
+      <Item value="RoverController`0" priority="31" />
+      <Item value="navigationService" priority="32" />
+      <Item value="dex" priority="32" />
+      <Item value="RoverController" priority="28" />
+      <Item value="TestFixtureSetUp" priority="31" />
+      <Item value="m_navigationService" priority="95" />
+      <Item value="Mock&lt;INavigationService&gt;" priority="28" />
+      <Item value="controller" priority="127" />
+      <Item value="list" priority="63" />
+      <Item value="First`1" priority="26" />
+      <Item value="n" priority="31" />
+      <Item value="It`0" priority="95" />
+      <Item value="Times`0" priority="31" />
+      <Item value="rover1" priority="95" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
+      <Item value="AreEqual`0" priority="134" />
+      <Item value="AreNotEqual`0" priority="26" />
+      <Item value="IsNotNull`0" priority="53" />
+      <Item value="IsTrue`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Akqa.MarsRover.Business.Domain.Position">
+      <Item value="Direction" priority="350" />
+      <Item value="X" priority="215" />
+      <Item value="GetHashCode`0" priority="26" />
+      <Item value="Y" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Akqa.MarsRover.Business.Domain.Direction">
+      <Item value="North" priority="379" />
+      <Item value="East" priority="356" />
+      <Item value="South" priority="356" />
+      <Item value="West" priority="325" />
+      <Item value="Backward" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Akqa.MarsRover.Business.Domain.Rotation">
+      <Item value="Left" priority="80" />
+      <Item value="Right" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:">
+      <Item value="Init`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Akqa.MarsRover.Presentation.Presenters.Presenter">
+      <Item value="Init`0" priority="53" />
+      <Item value="View" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="AspCodeCompletionContext">
+      <Item value="asp" priority="35" />
+      <Item value="ID" priority="29" />
+      <Item value="runat" priority="34" />
+      <Item value="form" priority="6" />
+      <Item value="target" priority="7" />
+      <Item value="table" priority="13" />
+      <Item value="tr" priority="20" />
+      <Item value="td" priority="41" />
+      <Item value="p" priority="34" />
+      <Item value="a" priority="13" />
+      <Item value="href" priority="13" />
+      <Item value="input" priority="6" />
+      <Item value="type" priority="6" />
+      <Item value="submit" priority="7" />
+      <Item value="title" priority="6" />
+      <Item value="value" priority="6" />
+      <Item value="action" priority="6" />
+      <Item value="h2" priority="27" />
+      <Item value="ItemTemplate" priority="6" />
+      <Item value="asp:Content" priority="13" />
+      <Item value="th" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="Parse`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.HtmlHelper`1">
+      <Item value="TextBox`0" priority="26" />
+      <Item value="DisplayText`0" priority="53" />
+      <Item value="DisplayTextFor`2" priority="26" />
+      <Item value="Label`0" priority="26" />
+      <Item value="Display`0" priority="26" />
+      <Item value="Encode`0" priority="26" />
+      <Item value="DisplayForModel`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add`0" priority="161" />
+      <Item value="First`1" priority="26" />
+      <Item value="Count" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Akqa.MarsRover.Business.Parsers.DirectionParser">
+      <Item value="Parse`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.TempDataDictionary">
+      <Item value="Clear`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Akqa.MarsRover.Web.Models.RoverModel">
+      <Item value="Rover" priority="134" />
+      <Item value="Movements" priority="107" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Akqa.MarsRover.Container.DependencyInjector">
+      <Item value="Instance" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Akqa.MarsRover.Container.DependencyInjector">
+      <Item value="GetDefaultInstance`1" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Akqa.MarsRover.Business.Services.INavigationService">
+      <Item value="Equals`0" priority="26" />
+      <Item value="ExploreTerrain`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Akqa.MarsRover.Business.Domain.Command">
+      <Item value="MoveForward" priority="188" />
+      <Item value="TurnLeft" priority="134" />
+      <Item value="TurnRight" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="ToCharArray`0" priority="53" />
+      <Item value="ToLower`0" priority="26" />
+      <Item value="ToUpper`0" priority="26" />
+      <Item value="ToString`0" priority="27" />
+      <Item value="First`1" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Akqa.MarsRover.Business.Parsers.CommandParser">
+      <Item value="Parse`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Akqa.MarsRover.Business.Domain.Rover">
+      <Item value="GetCurrentPosition`0" priority="107" />
+      <Item value="MoveFoward`0" priority="26" />
+      <Item value="Rotate`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.ViewDataDictionary">
+      <Item value="Model" priority="81" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.ViewDataDictionary`1">
+      <Item value="Model" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Akqa.MarsRover.Business.Domain.Direction">
+      <Item value="ToString`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Moq.Mock`1">
+      <Item value="Object" priority="26" />
+      <Item value="Verify`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Akqa.MarsRover.Web.Controllers.RoverController">
+      <Item value="SubmitPlateau`0" priority="26" />
+      <Item value="TempData" priority="53" />
+      <Item value="AddRover`0" priority="26" />
+      <Item value="StartExploration`0" priority="26" />
+      <Item value="ViewData" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Akqa.MarsRover.Business.Domain.Plateau">
+      <Item value="Length" priority="26" />
+      <Item value="Height" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Moq.It">
+      <Item value="IsAny`1" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Moq.Times">
+      <Item value="Exactly`0" priority="26" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+</Configuration>
